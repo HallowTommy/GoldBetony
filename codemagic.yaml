@@ -5,18 +5,18 @@ workflows:
     instance_type: mac_mini_m2
 
     integrations:
-      app_store_connect: API 4
+      app_store_connect: API 1
 
     environment:
       xcode: latest
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: com.cherevan.lasttimetracker
+        bundle_identifier: com.savealon.goldbetony
       vars:
-        BUNDLE_ID: "com.cherevan.lasttimetracker"
-        XCODE_PROJECT: "LastTime.xcodeproj"
-        XCODE_SCHEME: "LastTime"
-        APP_STORE_APPLE_ID: "6760702173"
+        BUNDLE_ID: "com.savealon.goldbetony"
+        XCODE_PROJECT: "GoldBetony.xcodeproj"
+        XCODE_SCHEME: "GoldBetony"
+        APP_STORE_APPLE_ID: "6761757602"
 
     scripts:
       - name: Set up code signing
